@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="303613" started-at="2018-11-06T23:42:19Z" finished-at="2018-11-06T23:47:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="303613" started-at="2018-11-06T23:42:19Z" finished-at="2018-11-06T23:47:22Z">
+      <class name="com.uoa.qa.minc.testcase.MincAddToCartTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="setUp" is-config="true" duration-ms="23935" started-at="2018-11-06T23:42:19Z" finished-at="2018-11-06T23:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="switch_To_window_test()[pri:1, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="switch_To_window_test" duration-ms="2631" started-at="2018-11-06T23:42:43Z" finished-at="2018-11-06T23:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_To_window_test -->
+        <test-method status="PASS" signature="add_To_Cart_test(java.lang.String, java.lang.String)[pri:2, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="add_To_Cart_test" duration-ms="62265" started-at="2018-11-06T23:42:45Z" data-provider="getdata" finished-at="2018-11-06T23:43:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ruler ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_To_Cart_test -->
+        <test-method status="PASS" signature="add_To_Cart_test(java.lang.String, java.lang.String)[pri:2, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="add_To_Cart_test" duration-ms="79341" started-at="2018-11-06T23:43:47Z" data-provider="getdata" finished-at="2018-11-06T23:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[book]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_To_Cart_test -->
+        <test-method status="PASS" signature="add_To_Cart_test(java.lang.String, java.lang.String)[pri:2, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="add_To_Cart_test" duration-ms="110093" started-at="2018-11-06T23:45:07Z" data-provider="getdata" finished-at="2018-11-06T23:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_To_Cart_test -->
+        <test-method status="PASS" signature="add_To_Cart_test(java.lang.String, java.lang.String)[pri:2, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="add_To_Cart_test" duration-ms="1" started-at="2018-11-06T23:46:57Z" data-provider="getdata" finished-at="2018-11-06T23:46:57Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_To_Cart_test -->
+        <test-method status="PASS" signature="add_To_Cart_test(java.lang.String, java.lang.String)[pri:2, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="add_To_Cart_test" duration-ms="1" started-at="2018-11-06T23:46:57Z" data-provider="getdata" finished-at="2018-11-06T23:46:57Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_To_Cart_test -->
+        <test-method status="PASS" signature="complete_Order_test()[pri:3, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="complete_Order_test" duration-ms="20874" started-at="2018-11-06T23:46:57Z" finished-at="2018-11-06T23:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- complete_Order_test -->
+        <test-method status="PASS" signature="send_Email_test()[pri:4, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="send_Email_test" duration-ms="3590" started-at="2018-11-06T23:47:18Z" finished-at="2018-11-06T23:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_Email_test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uoa.qa.minc.testcase.MincAddToCartTest@7dcf94f8]" name="tearDown" is-config="true" duration-ms="845" started-at="2018-11-06T23:47:21Z" finished-at="2018-11-06T23:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uoa.qa.minc.testcase.MincAddToCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
